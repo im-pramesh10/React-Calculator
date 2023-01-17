@@ -1,16 +1,16 @@
 import "./Display.css" 
 
-const Display = () => {
+const Display = ({ result, expression }) => {
     return(
         <div className="Display-wrapper">
             <div className="result">
                 <h1>
-                    4
+                   { result }
                 </h1>
             </div>
             <div className="expression">
                 <h3>
-                    2+2
+                   { expression }
                 </h3>
             </div>
         </div>
