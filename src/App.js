@@ -6,9 +6,7 @@ import Display from "./components/Display";
   return (
     <div className="App">
       <div className="Calculator-wrapper">
-        <div className="row">
           <Display/>
-        </div>
         <div className="row">
           <Button symbol="7" />
           <Button symbol="8" />
@@ -30,10 +28,10 @@ import Display from "./components/Display";
         <div className="row">
           <Button symbol="." />
           <Button symbol="0" />
-          <Button symbol="clear" />
-          <Button symbol="=" />
+          <Button symbol="AC" color="red" />
           <Button symbol="*" />
         </div>
+        <Button symbol="=" color="orange" />
       </div>
     </div> 
   );
